@@ -1,0 +1,20 @@
+{
+  "name": "rtstock",
+  "version": "0.0.1",
+  "description": "Add A Stock Symbol And See RealTime Data Across Browsers",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^2.3.2",
+    "express": "^4.13.1",
+    "mongoose": "^4.0.8",
+    "quandl": "^0.0.5",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Mawuli Kufogbe",
+  "license": "ISC"
+}
